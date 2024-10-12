@@ -1,0 +1,25 @@
+.back_btn{
+    background-color: gray;
+    color: white;
+    margin: 10px;
+    border: 0cm;
+    border-radius: 1cm ;
+}
+
+.btn{
+    background-color: #faa935;
+}
+
+
+.card{
+    border-color: #faa935;
+}
+
+#searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+     /* Optional: Adjust to the height of the container or viewport */
+  }
+  

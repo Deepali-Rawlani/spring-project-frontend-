@@ -1,0 +1,144 @@
+/* Custom CSS for additional styling */
+.custom-btn {
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+  
+  
+#video{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+ /* .containerC{
+  
+    
+}  */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.customer-auth {
+   background: rgba(255, 255, 255, 0.6);
+   padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 100%;
+    max-width: 400px;
+     text-align: center;
+     margin-left:  530px; 
+     margin-top: 80px;
+     margin-bottom: 220px;
+}
+
+.customer-auth h2 {
+  text-align: center;
+  color: #333;
+}
+
+.customer-auth form {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-auth label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.customer-auth input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+
+.customer-auth button { background-color: #007bff;
+   color: white; padding:
+    10px; border: none; border-radius: 5px;
+     font-size: 14px; cursor: pointer;
+      transition: background-color 0.3s ease; }
+
+.customer-auth button:hover {
+  background-color: #0056b3;
+}
+
+.customer-auth button:last-of-type {
+  background-color: #f89409f1;
+  margin-top: 20px;
+}
+
+.customer-auth button:last-of-type:hover {
+  background-color: #faa83586;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .customer-auth {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .customer-auth input {
+    font-size: 15px;
+  }
+
+  .customer-auth button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .customer-auth {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .customer-auth input {
+    font-size: 14px;
+  }
+
+  .customer-auth button {
+    font-size: 14px;
+  }
+
+  .remember-me {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .remember-me input {
+    margin-bottom: 10px;
+  }
+}
+
+.error{
+color: red;
+}
+
+.btn{
+  width: 100%;
+}
